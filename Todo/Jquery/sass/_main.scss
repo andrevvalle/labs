@@ -1,0 +1,131 @@
+//Main
+
+//Import
+@import "variables";
+
+
+body,html{
+	font-family: Arial;
+	background: #161B2D;
+}
+
+h1{
+	color:white;
+	text-align: center;
+	border-bottom:1px solid white;
+	padding-bottom:10px;
+}
+
+.to-do-list{
+	@include size(100%, auto);
+	max-width:600px;
+	@extend .align;
+
+	header{
+		text-align:center;
+		background: $rosa;
+		border-radius: 10px 10px 0px 0px;
+		padding-top: 5px;
+
+		h2{
+			border-bottom: 1px solid white;
+			color:white;
+			width: 85%;
+			display: table;
+			margin: 20px auto;
+			text-transform: uppercase;
+			text-align:left;
+			padding: 10px;
+		}
+		input{
+			width: 83%;
+			border: none;
+			line-height: 19px;
+			padding: 12px 20px;
+			font-size: 16px;
+			color: $gray;
+			text-transform: uppercase;
+			margin: 0;
+
+			&:focus{outline:none;}
+		}
+
+		#inputTask{
+			border-radius: 10px 10px 0px 0px;
+		}
+
+		#inputDescr{
+			border-radius: 0px 0px 10px 10px;
+			border-top: 1px solid $grayLight;
+		}
+		.error{
+			background:$rosaDark;
+		}
+
+		#buttonRegister{
+			width: 92%;
+			border: none;
+			margin: 10px 0px;
+			font-size:16px;
+			color: #fff;
+			background: $wine;
+			border-radius: 10px;
+			padding: 12px;
+			cursor: pointer;
+			text-transform: uppercase;
+			opacity:1;
+			&:focus{outline:none;}
+			@extend .hover;
+			&:hover{
+				opacity:0.8;
+				@extend .hover;
+			}
+
+		}
+	}
+
+	section{
+		ul{
+			padding:0;
+			margin: 0;
+			color: white;
+			li{
+				list-style: none;
+				background: $lilac;
+				margin-bottom: 3px;
+				padding: 10px 20px;
+				cursor:move;
+				h4,p{
+					margin:0;
+					color:#c6cada;
+				}
+
+				h4{
+					text-transform: uppercase;
+					border-bottom: 1px solid;
+					padding-bottom: 5px;
+					.close{
+						float: right;
+						cursor: pointer;
+						color: $lilac;
+						background: white;
+						padding: 1px 5px;
+						border-radius: 20px;
+						font-size: 14px;
+						@extend .rotate;
+						&:hover{
+							@extend .rotateHover;
+						}
+					}
+				}
+
+				p{
+					margin-top: 13px;
+					font-size: 14px;
+					line-height: 20px;
+
+				}
+			}
+		}
+	}
+}

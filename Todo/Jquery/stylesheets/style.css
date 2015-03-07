@@ -1,0 +1,199 @@
+/* line 29, ../sass/_variables.scss */
+.align, .to-do-list {
+  position: relative;
+  margin: 0 auto;
+  display: table;
+}
+
+/* line 35, ../sass/_variables.scss */
+.hover, .to-do-list header #buttonRegister, .to-do-list header #buttonRegister:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 42, ../sass/_variables.scss */
+.rotate, .to-do-list section ul li h4 .close {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  overflow: hidden;
+}
+
+/* line 55, ../sass/_variables.scss */
+.rotateHover, .to-do-list section ul li h4 .close:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+/* line 7, ../sass/_main.scss */
+body, html {
+  font-family: Arial;
+  background: #161B2D;
+}
+
+/* line 12, ../sass/_main.scss */
+h1 {
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+/* line 19, ../sass/_main.scss */
+.to-do-list {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+/* line 24, ../sass/_main.scss */
+.to-do-list header {
+  text-align: center;
+  background: #de3e53;
+  border-radius: 10px 10px 0px 0px;
+  padding-top: 5px;
+}
+/* line 30, ../sass/_main.scss */
+.to-do-list header h2 {
+  border-bottom: 1px solid white;
+  color: white;
+  width: 85%;
+  display: table;
+  margin: 20px auto;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px;
+}
+/* line 40, ../sass/_main.scss */
+.to-do-list header input {
+  width: 83%;
+  border: none;
+  line-height: 19px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #a6a5a5;
+  text-transform: uppercase;
+  margin: 0;
+}
+/* line 50, ../sass/_main.scss */
+.to-do-list header input:focus {
+  outline: none;
+}
+/* line 53, ../sass/_main.scss */
+.to-do-list header #inputTask {
+  border-radius: 10px 10px 0px 0px;
+}
+/* line 57, ../sass/_main.scss */
+.to-do-list header #inputDescr {
+  border-radius: 0px 0px 10px 10px;
+  border-top: 1px solid #f7f3f3;
+}
+/* line 61, ../sass/_main.scss */
+.to-do-list header .error {
+  background: #a32d3c;
+}
+/* line 65, ../sass/_main.scss */
+.to-do-list header #buttonRegister {
+  width: 92%;
+  border: none;
+  margin: 10px 0px;
+  font-size: 16px;
+  color: #fff;
+  background: #5e2a30;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  opacity: 1;
+}
+/* line 77, ../sass/_main.scss */
+.to-do-list header #buttonRegister:focus {
+  outline: none;
+}
+/* line 79, ../sass/_main.scss */
+.to-do-list header #buttonRegister:hover {
+  opacity: 0.8;
+}
+/* line 88, ../sass/_main.scss */
+.to-do-list section ul {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+/* line 92, ../sass/_main.scss */
+.to-do-list section ul li {
+  list-style: none;
+  background: #2e334a;
+  margin-bottom: 3px;
+  padding: 10px 20px;
+  cursor: move;
+}
+/* line 98, ../sass/_main.scss */
+.to-do-list section ul li h4, .to-do-list section ul li p {
+  margin: 0;
+  color: #c6cada;
+}
+/* line 103, ../sass/_main.scss */
+.to-do-list section ul li h4 {
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+/* line 107, ../sass/_main.scss */
+.to-do-list section ul li h4 .close {
+  float: right;
+  cursor: pointer;
+  color: #2e334a;
+  background: white;
+  padding: 1px 5px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+/* line 122, ../sass/_main.scss */
+.to-do-list section ul li p {
+  margin-top: 13px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 29, ../sass/_variables.scss */
+.align, .to-do-list {
+  position: relative;
+  margin: 0 auto;
+  display: table;
+}
+
+/* line 35, ../sass/_variables.scss */
+.hover, .to-do-list header #buttonRegister, .to-do-list header #buttonRegister:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 42, ../sass/_variables.scss */
+.rotate, .to-do-list section ul li h4 .close {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  overflow: hidden;
+}
+
+/* line 55, ../sass/_variables.scss */
+.rotateHover, .to-do-list section ul li h4 .close:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}

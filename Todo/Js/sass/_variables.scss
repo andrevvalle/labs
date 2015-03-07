@@ -1,0 +1,63 @@
+//
+
+
+
+//color
+
+$rosa : #de3e53;
+$rosaDark: rgb(163, 45, 60);
+$lilac: #2e334a;
+$wine: #5e2a30;
+$grayLight: #F7F3F3;
+$gray: #a6a5a5;
+
+
+// mix
+
+//size
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+//font
+@mixin font($color, $fontSize) {
+  color: $color;
+  font-size: $fontSize;
+}
+
+//center
+.align{
+	position:relative;
+	margin: 0 auto;
+	display: table;
+}
+
+.hover{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.rotate{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    overflow:hidden;
+} 
+
+.rotateHover  
+{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}  
+
+
+
+
