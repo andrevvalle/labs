@@ -14,7 +14,7 @@
 }
 
 /* line 42, ../sass/_variables.scss */
-.rotate, .to-do-list section ul li h4 #iconClose {
+.rotate, .to-do-list section ul li h4 .iconClose {
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   -o-transition-duration: 0.8s;
@@ -27,7 +27,7 @@
 }
 
 /* line 55, ../sass/_variables.scss */
-.rotateHover, .to-do-list section ul li h4 #iconClose:hover {
+.rotateHover, .to-do-list section ul li h4 .iconClose:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
@@ -147,7 +147,7 @@ h1 {
   padding-bottom: 5px;
 }
 /* line 107, ../sass/_main.scss */
-.to-do-list section ul li h4 #iconClose {
+.to-do-list section ul li h4 .iconClose {
   float: right;
   cursor: pointer;
   color: #2e334a;
@@ -179,7 +179,7 @@ h1 {
 }
 
 /* line 42, ../sass/_variables.scss */
-.rotate, .to-do-list section ul li h4 #iconClose {
+.rotate, .to-do-list section ul li h4 .iconClose {
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   -o-transition-duration: 0.8s;
@@ -192,7 +192,7 @@ h1 {
 }
 
 /* line 55, ../sass/_variables.scss */
-.rotateHover, .to-do-list section ul li h4 #iconClose:hover {
+.rotateHover, .to-do-list section ul li h4 .iconClose:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
